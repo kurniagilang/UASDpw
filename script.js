@@ -39,6 +39,5 @@ function handleTopbar() {
         // }
     })
 }
-
-
 handleTopbar()
+
