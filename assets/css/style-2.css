@@ -13711,9 +13711,13 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 #footer .footer-body {
-  padding: 48px 0;
-  background-color: #073C64;
+  padding: 48px;
+  min-height: 100%;
+  background: url(/assets/img/taman.jpg) rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
 }
+
 
 #footer .footer-body .footer-brand {
   display: inline-block;
