@@ -652,7 +652,6 @@
 /* @import "bootstrap/normalize"; */
 
 /* @import "bootstrap/print"; */
-
 .glyphicon {
   position: relative;
   top: 1px;
@@ -13712,6 +13711,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 #footer .footer-body {
   padding: 48px;
+  font-family: 'Poppins';
   min-height: 100%;
   background: url(/assets/img/taman.jpg) rgba(0, 0, 0, 0.7);
   background-size: cover;
