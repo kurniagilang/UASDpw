@@ -5350,7 +5350,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 @media (min-width: 1199px) {
   #header.header-compact #navbar .nav > li.current-menu-ancestor > a:after, #header.header-fancy #navbar .nav > li.current-menu-ancestor > a:after, #header.header-compact #navbar .nav > li.active > a:after, #header.header-fancy #navbar .nav > li.active > a:after, #header.header-compact #navbar .nav > li:hover > a:after, #header.header-fancy #navbar .nav > li:hover > a:after, #header.header-compact #navbar .nav > li:focus > a:after, #header.header-fancy #navbar .nav > li:focus > a:after {
-    border-bottom: 5px solid #2e318f;
+    border-bottom: 8px solid #2e318f;
   }
 }
 
@@ -5586,15 +5586,19 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 #header .topbar .pll-parent-menu-item .dropdown-menu {
-  min-width: 30%;
+  /*min-width: 100%;*/
 }
 
 #header .topbar .pll-parent-menu-item .dropdown-menu > li > a {
-  text-align: left;
-  padding: 4px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   text-transform: none;
-  width: 30%;
+  padding: 6px 1px;
+  width: 100%;
   font-family: Poppins, sans-serif;
+  border-top: 1px solid white;
 }
 
 #header .topbar .pll-parent-menu-item:hover > a {
@@ -6300,7 +6304,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 @media (max-width: 767px) {
   #header.header-fancy .navbar-brand.noscroll {
-    width: 100px;
+    width: 100px !important;
     height: 85px;
     padding: 5px;
   }

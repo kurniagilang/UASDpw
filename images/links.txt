@@ -1,0 +1,24 @@
+1: https://www.ugm.ac.id/images/ic_bg/in.gif
+1: https://www.ugm.ac.id/images/ic_bg/en.gif
+1: https://www.ugm.ac.id/images/optimasi/ugm_header.png
+1: https://www.ugm.ac.id/video/2021gedung.jpeg
+1: https://www.ugm.ac.id/images/new/hero_logo.png
+1: https://www.ugm.ac.id/galleries/crop/17229--730x420px.jpg
+1: https://www.ugm.ac.id/galleries/crop/17226--360x240px.jpeg
+1: https://www.ugm.ac.id/galleries/crop/17225--360x240px.jpg
+1: https://www.ugm.ac.id/galleries/crop/17224--360x240px.jpg
+1: https://www.ugm.ac.id/galleries/static_image/home-id/pendidikan_halaman_depan.jpg
+1: https://www.ugm.ac.id/galleries/static_image/research-id/penelitian_1.png
+1: https://www.ugm.ac.id/galleries/static_image/research-id/penelitian_1a.jpg
+1: https://www.ugm.ac.id/galleries/static_image/img_pengabdian.png
+1: https://www.ugm.ac.id/galleries/static_image/home-id/kkn.JPG
+1: https://www.ugm.ac.id/galleries/static_image/home-id/tentang_ugm_halaman_depan.jpg
+1: https://www.ugm.ac.id/galleries/static_image/home-id/spotlight_2.jpg
+1: https://www.ugm.ac.id/galleries/static_image/home-id/spotlight_4.jpg
+1: https://www.ugm.ac.id/images/iklan/BANNER WEB ppid.png
+1: https://www.ugm.ac.id/images/iklan/lapor.jpeg
+1: https://www.ugm.ac.id/images/iklan/BANNER-WEB-min.jpg
+1: https://www.ugm.ac.id/images/iklan/Optimized-BANNER WEB GPR.jpg
+1: https://www.ugm.ac.id/images/iklan/laporankeuangan.jpeg
+1: https://www.ugm.ac.id/images/iklan/zona_integritas.jpg
+1: https://www.ugm.ac.id/images/ugm_footer.png

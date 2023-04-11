@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://www.ugm.ac.id/feed/about" /><title>Universiitas Gadjah Mada RSS 1</title>
+<link>https://www.ugm.ac.id</link>
+<description><![CDATA[News RSS 1.0 feed by Universiitas Gadjah Mada
+]]></description>
+<ChannelAbout>https://www.ugm.ac.id/feed/about</ChannelAbout>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23633-ruu-kesehatan-solusi-permasalahan-kesehatan-di-indonesia">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23632-platform-mindme-hantar-agnezte-juara-i-esri-young-scholars-award">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23631-pakar-ugm-tak-rekomendasikan-olahraga-pagi-saat-puasa-mengapa">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23629-mahasiswa-ugm-juara-geothermal-development-plan-competition">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23630-ugm-ajak-perguruan-tinggi-diy-prioritaskan-agenda-pengentasan-kemiskinan">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23628-tingkatkan-inklusivitas-ugm-buka-program-penelusuran-bibit-unggul-khusus-daerah-3t">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23627-yousure-ugm-berharap-menpora-baru-beri-perhatian-soal-kesejahteraan-pemuda">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23626-apresiasi-wmp-yogyakarta-kepada-insan-penggerak-kemajuan-penelitian">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23624-bem-km-ugm-gelar-paguyuban-desa-mitra">1</rdf:li>
+<rdf:li resource="https://www.ugm.ac.id/id/berita/23623-fakultas-peternakan-ugm-kembali-selenggarakan-pelatihan-pengelolaan-usaha-peternakan-sapi">1</rdf:li>
+</rdf:Seq>
+</items>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23633-ruu-kesehatan-solusi-permasalahan-kesehatan-di-indonesia">
+<title>
+ RUU Kesehatan Solusi Permasalahan Kesehatan di Indonesia</title>
+<link>
+https://www.ugm.ac.id/id/berita/23633-ruu-kesehatan-solusi-permasalahan-kesehatan-di-indonesia</link>
+<dc:date>
+2023-04-08</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23632-platform-mindme-hantar-agnezte-juara-i-esri-young-scholars-award">
+<title>
+Platform MindMe Hantar Agnezte Juara I Esri Young Scholars Award</title>
+<link>
+https://www.ugm.ac.id/id/berita/23632-platform-mindme-hantar-agnezte-juara-i-esri-young-scholars-award</link>
+<dc:date>
+2023-04-06</dc:date>
+<dc:subject>
+Prestasi</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23631-pakar-ugm-tak-rekomendasikan-olahraga-pagi-saat-puasa-mengapa">
+<title>
+Pakar UGM Tak Rekomendasikan Olahraga Pagi Saat Puasa, Mengapa?</title>
+<link>
+https://www.ugm.ac.id/id/berita/23631-pakar-ugm-tak-rekomendasikan-olahraga-pagi-saat-puasa-mengapa</link>
+<dc:date>
+2023-04-06</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23629-mahasiswa-ugm-juara-geothermal-development-plan-competition">
+<title>
+Mahasiswa UGM Juara Geothermal Development Plan Competition</title>
+<link>
+https://www.ugm.ac.id/id/berita/23629-mahasiswa-ugm-juara-geothermal-development-plan-competition</link>
+<dc:date>
+2023-04-05</dc:date>
+<dc:subject>
+Prestasi</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23630-ugm-ajak-perguruan-tinggi-diy-prioritaskan-agenda-pengentasan-kemiskinan">
+<title>
+UGM Ajak Perguruan Tinggi DIY Prioritaskan Agenda Pengentasan Kemiskinan </title>
+<link>
+https://www.ugm.ac.id/id/berita/23630-ugm-ajak-perguruan-tinggi-diy-prioritaskan-agenda-pengentasan-kemiskinan</link>
+<dc:date>
+2023-04-05</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23628-tingkatkan-inklusivitas-ugm-buka-program-penelusuran-bibit-unggul-khusus-daerah-3t">
+<title>
+Tingkatkan Inklusivitas, UGM Buka Program Penelusuran Bibit Unggul Khusus Daerah 3T</title>
+<link>
+https://www.ugm.ac.id/id/berita/23628-tingkatkan-inklusivitas-ugm-buka-program-penelusuran-bibit-unggul-khusus-daerah-3t</link>
+<dc:date>
+2023-04-05</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23627-yousure-ugm-berharap-menpora-baru-beri-perhatian-soal-kesejahteraan-pemuda">
+<title>
+YouSure UGM Berharap Menpora Baru Beri Perhatian Soal Kesejahteraan Pemuda</title>
+<link>
+https://www.ugm.ac.id/id/berita/23627-yousure-ugm-berharap-menpora-baru-beri-perhatian-soal-kesejahteraan-pemuda</link>
+<dc:date>
+2023-04-04</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23626-apresiasi-wmp-yogyakarta-kepada-insan-penggerak-kemajuan-penelitian">
+<title>
+Apresiasi WMP Yogyakarta Kepada Insan Penggerak Kemajuan Penelitian</title>
+<link>
+https://www.ugm.ac.id/id/berita/23626-apresiasi-wmp-yogyakarta-kepada-insan-penggerak-kemajuan-penelitian</link>
+<dc:date>
+2023-04-04</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23624-bem-km-ugm-gelar-paguyuban-desa-mitra">
+<title>
+BEM KM UGM Gelar Paguyuban Desa Mitra   </title>
+<link>
+https://www.ugm.ac.id/id/berita/23624-bem-km-ugm-gelar-paguyuban-desa-mitra</link>
+<dc:date>
+2023-04-04</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+<item rdf:about="https://www.ugm.ac.id/id/berita/23623-fakultas-peternakan-ugm-kembali-selenggarakan-pelatihan-pengelolaan-usaha-peternakan-sapi">
+<title>
+Fakultas Peternakan UGM Kembali Selenggarakan Pelatihan Pengelolaan Usaha Peternakan Sapi</title>
+<link>
+https://www.ugm.ac.id/id/berita/23623-fakultas-peternakan-ugm-kembali-selenggarakan-pelatihan-pengelolaan-usaha-peternakan-sapi</link>
+<dc:date>
+2023-04-03</dc:date>
+<dc:subject>
+Liputan/Berita</dc:subject>
+</item>
+</rdf:RDF>

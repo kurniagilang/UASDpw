@@ -3182,10 +3182,11 @@ tbody.collapse.in {
   top: 100%;
   left: 0;
   z-index: 1000;
-  display: none;
+  display: flex;
+  width: 100%;
   float: left;
-  min-width: 160px;
-  padding: 2px 0px 2px 0px;
+  min-width: 100%;
+  padding: 0px 0px 0px 0px;
   margin: 2px 0 0;
   list-style: none;
   font-size: 14px;
@@ -3193,7 +3194,7 @@ tbody.collapse.in {
   background-color: #121F33;
   border: 1px solid #ccc;
   border: 1px solid #121F33;
-  border-radius: 1px;
+  border-radius: 0px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
   background-clip: padding-box;
 }
@@ -3211,7 +3212,6 @@ tbody.collapse.in {
 }
 
 .dropdown-menu > li > a {
-  display: block;
   padding: 10px 30px;
   clear: both;
   text-decoration: none;
