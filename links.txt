@@ -1,2 +1,2 @@
-1: https://www.ugm.ac.id
-2: https://www.ugm.ac.id/id/berita/feed.xml
+1: https://www.unri.ac.id
+2: https://www.unri.ac.id/id/berita/feed.xml
