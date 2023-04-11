@@ -652,6 +652,7 @@
 /* @import "bootstrap/normalize"; */
 
 /* @import "bootstrap/print"; */
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -16171,6 +16172,8 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 .sc-about--number .number-counter {
   margin-top: 60px;
 }
+
+
 
 @media (max-width: 767px) {
   .sc-about--number .number-counter {
