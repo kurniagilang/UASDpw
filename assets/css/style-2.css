@@ -1753,6 +1753,7 @@ figure {
 
 img {
   vertical-align: middle;
+  width: 100%;
 }
 
 .img-responsive, .wp-caption img {
@@ -3212,6 +3213,7 @@ tbody.collapse.in {
 }
 
 .dropdown-menu > li > a {
+  width:fit-content;
   padding: 10px 30px;
   clear: both;
   text-decoration: none;
@@ -13699,10 +13701,10 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 #footer .footer-body {
-  padding: 48px;
+  padding: 48px 0px;
   font-family: 'Poppins';
   min-height: 100%;
-  background: url(/assets/img/taman.jpg) rgba(0, 0, 0, 0.7);
+  background: #121F33;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -13724,7 +13726,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 #footer .widget a:hover, #footer .widget a:focus, #footer .widget a:active {
-  color: #fff;
+  color: rgb(255, 194, 11);
 }
 
 #footer .widget .widget-header {
@@ -13750,7 +13752,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 #footer .widget .menu li a {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   display: inline-block;
   padding: 5px 0;
   line-height: 1.7142857143;
