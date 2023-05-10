@@ -8474,7 +8474,7 @@ a img.aligncenter {
   transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   position: absolute;
-  background-color: #073C64;
+  background-color: #f8f9fb;
   width: 80%;
   padding: 20px 30px 15px;
 }
