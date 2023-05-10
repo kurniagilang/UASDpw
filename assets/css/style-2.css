@@ -4728,7 +4728,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4862,7 +4862,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6780,12 +6780,12 @@ a img.aligncenter {
 /* Section / Widget Title - Placeholder */
 
 .content .content-header, #content .content-header, .tpb-title, .single-post .content-heading, .panel-header, .widget .widget-header, #comments .comment-header {
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 5px solid #2e318f;
   margin-bottom: 30px;
 }
 
 .content .content-header > span, #content .content-header > span, .tpb-title > span, .single-post .content-heading > span, .panel-header > span, .widget .widget-header > span, #comments .comment-header > span {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;
@@ -6798,8 +6798,8 @@ a img.aligncenter {
   font-weight: bold;
   color: #073C64;
   margin-top: 0;
-  margin-bottom: -1px !important;
-  border-bottom: 3px solid #FDCB2C;
+  margin-bottom: -5px !important;
+  border-bottom: 5px solid #FDCB2C;
   padding-bottom: 11px;
   display: inline-block;
 }
@@ -7068,7 +7068,7 @@ a img.aligncenter {
 }
 
 .section-header .section-subtitle, .section-header > span {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   color: #555555;
   text-transform: uppercase;
   font-size: 12px;
@@ -7313,7 +7313,7 @@ a img.aligncenter {
 }
 
 .post .post-content .entry-content .ecae-button .ecae-link {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 12px;
   font-weight: bold;
   color: #149fc0;
@@ -7412,7 +7412,7 @@ a img.aligncenter {
   top: 0;
   width: 100%;
   background-color: #073C64;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   text-transform: uppercase;
   padding: 8px 0;
 }
@@ -9785,7 +9785,7 @@ a img.aligncenter {
 
 #gallery-archives #sidebar .widget-title {
   text-transform: uppercase;
-  font-family: "Proxima Nova" !important;
+  font-family: "Poppins" !important;
 }
 
 #gallery-archives .gallery-item .gallery-img a {
@@ -11487,7 +11487,7 @@ a img.aligncenter {
 }
 
 .single-page .contact-form p {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
 }
 
 .single-page .contact-form input[type*="submit"] {
@@ -12300,7 +12300,7 @@ a img.aligncenter {
 }
 
 .slider-preview .gallery-caption p {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 14px;
 }
 
@@ -13001,7 +13001,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 /* Widget Link - Placeholder */
 
 .panel-box ul a, .post-list a, .widget ul li a, .widget.widget_rss ul li a {
-  font-family: "Circular Std";
+  font-family: "Poppins";
   font-weight: normal;
   color: #222222;
   text-decoration: none;
@@ -13012,7 +13012,8 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .panel-box ul a:hover, .post-list a:hover, .widget ul li a:hover {
-  color: #149fc0;
+  color: #2e318f;
+  font-weight: 900;
 }
 
 @media (max-width: 767px) {
@@ -13024,10 +13025,10 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 /* Widget meta - Placeholder */
 
 .post-list .meta-date, .widget.widget_rss ul li .rss-date, .widget.widget_rss ul li cite {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 10px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   color: #a6a6a6;
   display: inline-block;
   margin-right: 6px;
@@ -13107,7 +13108,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 /* Tagcloud */
 
 .tagcloud .tag-title {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   color: #a6a6a6;
   text-transform: uppercase;
   display: inline-block;
@@ -13165,7 +13166,8 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .event-list a:hover .event-title {
-  color: #149fc0;
+  color: #f4ba02;
+  border-left: #2e318f 5px solid;
 }
 
 .event-list a .event-date, .event-list a .event-title {
@@ -13185,7 +13187,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
   display: block;
   font-size: 12px;
   color: #555555;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -13234,7 +13236,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .widget #recentcomments {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
 }
 
 .widget #recentcomments .comment-author-link {
@@ -13278,7 +13280,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 .widget #wp-calendar caption {
   color: #222222;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-weight: bold;
   text-transform: uppercase;
   padding: 10px 5px;
@@ -13312,14 +13314,14 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .widget #wp-calendar th {
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 10px;
   color: #a6a6a6;
 }
 
 .widget #wp-calendar #prev a, .widget #wp-calendar #next a {
   color: #149fc0;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 12px;
 }
 
@@ -13448,7 +13450,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
   border-right: 1px solid #E6E6E6;
   text-decoration: none;
   font-size: 14px;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   text-transform: uppercase;
   font-size: 10px;
   color: #a6a6a6;
@@ -13547,7 +13549,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 #comments .entry-comments .comment .comment-author .meta-time {
   float: right;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   font-size: 10px;
   color: #a6a6a6;
   text-transform: uppercase;
@@ -13566,7 +13568,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 #comments .entry-comments .comment .comment-edit-link, #comments .entry-comments .comment .comment-reply-link {
   display: inline-block;
   padding: 2px 10px;
-  font-family: "Proxima Nova";
+  font-family: "Poppins";
   text-transform: uppercase;
   font-size: 12px;
   text-decoration: none;
@@ -17571,7 +17573,7 @@ body.font-sans-serif .event-table > table th, body.font-sans-serif .event-table 
 }
 
 body.font-sans-serif #gallery-archives #sidebar .widget-title {
-  font-family: "Proxima Nova" !important;
+  font-family: "Poppins" !important;
 }
 
 body.font-sans-serif .post-link a, body.font-sans-serif .widget ul li a, body.font-sans-serif .widget.widget_rss ul li a {

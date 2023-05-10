@@ -4781,7 +4781,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 .breadcrumb > li:hover > a {
-  color: #149fc0;
+  color: #2b14c0;
+  font-weight: 900;
 }
 
 .breadcrumb > li + li:before {
