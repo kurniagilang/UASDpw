@@ -35,7 +35,7 @@ h1{
     transition: all 0.3s linear 0s;
 }
 .container .row{
-    margin: 30px;px;
+    margin: 30px;
 }
 .our-team:hover .pic{
     display:inline-block;
