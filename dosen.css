@@ -12,7 +12,7 @@ body{
     border-top: #ffc20b solid 10px;
     border-bottom: #2c2e69 solid 10px;
     height: 600px;
-    margin-bottom: 10px ;
+    margin-bottom: 30px ;
 }
 
 .our-team:hover{
@@ -37,9 +37,7 @@ h1{
     z-index: 1;
     transition: all 0.3s linear 0s;
 }
-.container .row{
-    margin: 30px;
-}
+
 .our-team:hover .pic{
     display:inline-block;
     width: 250px;
@@ -117,6 +115,7 @@ h1{
     margin-bottom: 5px;
 }
 
+
 .our-team .post{
     display: block;
     padding-bottom: 3px !important;
@@ -143,17 +142,6 @@ h1{
     margin: 0px;
     text-align: center;
     display: block;
-    font-size: 0px;
-    color: #4e5052;
-    text-transform: capitalize;
-    transition: all 0.5s ease 0s;
-}
-
-.our-team .bio{
-    padding: 0px 30px;
-    margin: 0px;
-    text-align: center;
-    display: block;
     font-size: 15px;
     color: #4e5052;
     text-transform: capitalize;
@@ -165,15 +153,17 @@ h1{
     display: block;
     font-size: 0px;
     color: #4e5052;
+    line-height: 1.7142857143;
     text-transform: capitalize; 
     margin-top: 0px;
     transition: all 0.5s ease 0s;
 }
 
+
 .our-team:hover .bio:hover li{
     text-align: center;
     display: block;
-    font-size: 12px;
+    font-size: 10px;
     color: #4e5052;
     text-transform: capitalize; 
     margin-top: 3px;
