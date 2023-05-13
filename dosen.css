@@ -1,5 +1,5 @@
 body{
-    background-color: #f7f7f7;
+    background-color: #f3f3f3;
 }
 .our-team{
     padding: 0px;
@@ -7,8 +7,10 @@ body{
     text-align: center;
     overflow: hidden;
     position: relative;
-    border:1px dotted #ccc;
+    border:1px dotted #ffffff;
     transition: all 0.3s linear 0s;
+    border-top: #ffc20b solid 10px;
+    border-bottom: #2c2e69 solid 10px;
 }
 .our-team:hover{
     padding: 30px 0 40px;
@@ -111,26 +113,15 @@ h1{
     text-transform: capitalize;
     margin-bottom: 5px;
 }
+
 .our-team .post{
     display: block;
-    font-size: 15px;
-    color: #4e5052;
-    padding-bottom: 0px !important;
-    border-bottom: 0px #ffc20b;
-    height: 0px;
-    margin-bottom: 0px;
-    text-transform: capitalize; 
-    transition: all 0.9s ease 0s;
-}
-
-.our-team:hover .post{
-    display: block;
-    padding-bottom: 20px !important;
+    padding-bottom: 3px !important;
     font-size: 15px;
     color: #4e5052;
     border-bottom: 1px solid #f1f1f1;
     height: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     text-transform: capitalize; 
     transition: all 0.9s ease 0s;
 }
@@ -155,7 +146,7 @@ h1{
     transition: all 0.5s ease 0s;
 }
 
-.our-team:hover .bio{
+.our-team .bio{
     padding: 0px 30px;
     margin: 0px;
     text-align: center;
