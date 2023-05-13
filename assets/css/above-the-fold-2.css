@@ -4504,7 +4504,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 @media (min-width: 1199px) {
   .navbar-left {
     float: right !important;
-    width: 55%;
+    width: 55% !important;
   }
 }
 
@@ -6177,11 +6177,19 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 /* custom header fancy */
 
 #header.header-fancy {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99999;
+}
+
+@media (max-width: 1200px) {
+  #header.header-fancy{
+    display: none;
+    padding: 15px 0;
+  }
 }
 
 #header.header-fancy .topbar {
@@ -6254,12 +6262,6 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   #header.header-fancy.sticky-header #navbar .nav > li > .search-form {
     padding-top: 17px;
     padding-bottom: 17px;
-  }
-}
-
-@media (max-width: 1199px) {
-  #header.header-fancy + * {
-    padding-top: 80px;
   }
 }
 

@@ -3,7 +3,6 @@ const btmHeader = document.getElementById("navbar")
 const header = document.getElementById("header")
 const navbars = document.getElementById("navbar")
 
-
 function handleTopbar() {
     window.addEventListener("scroll", () => {
         const distanceFromTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
