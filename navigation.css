@@ -6,13 +6,13 @@
   --header-height: 3rem;
 
   /*===== Colors =====*/
-  --first-color: #5B65F5;
+  --first-color: #121f33;
   --first-color-light: #C4C7F5;
   --dark-color: #0E1026;
   --white-color: #FBFBFB;
 
   /*===== Font and typography =====*/
-  --body-font: 'Open Sans', sans-serif;
+  --body-font: poppins;
   --nav-name-font-size: 1.5rem;
   --normal-font-size: .938rem;
 
@@ -71,6 +71,7 @@ a {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: solid 10px #2c2e69;
 }
 
 .header__logo {
@@ -146,6 +147,7 @@ a {
 /*Show menu*/
 .show {
   left: 0;
+  box-shadow: 1px 0px 100px;
 }
 
 /*Active link*/

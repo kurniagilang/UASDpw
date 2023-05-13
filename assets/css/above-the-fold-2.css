@@ -7431,6 +7431,12 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   background-color: #f8f9fb;
 }
 
+@media (max-width: 1199px) {
+  .section-page {
+    margin-top: 55px!important;
+  }
+}
+
 @media (max-width: 767px) {
   .section-page {
     padding: 30px 0;

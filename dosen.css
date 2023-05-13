@@ -11,7 +11,10 @@ body{
     transition: all 0.3s linear 0s;
     border-top: #ffc20b solid 10px;
     border-bottom: #2c2e69 solid 10px;
+    height: 600px;
+    margin-bottom: 10px ;
 }
+
 .our-team:hover{
     padding: 30px 0 40px;
     background-color: white;
