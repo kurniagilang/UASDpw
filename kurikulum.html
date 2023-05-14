@@ -359,7 +359,7 @@
     </style>
     <h2 style="text-align: center;">Tabel Kurikulum</h2>
     <p style="text-align: center; font-weight: 100;">Masukkan semester atau konsentrasi yang ingin anda cari!</p>  
-    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+    <input class="form-control" type="text" id="myInput" onkeyup="myFunction(this, 'myTable')" placeholder="Search...">
     <br>
     
     <table class="table table-bordered table-striped">
@@ -8639,7 +8639,27 @@ $(document).ready(function(){
     });
   });
 });
+
+document.getElementById('myInput').focus();
+
+function myFunction(txelem, destid) {
+
+  var instance = new Mark(document.querySelector('#' + destid));
+  instance.unmark({
+    done: function() {
+      instance.mark(txelem.value, {
+        caseSensitive: false
+      });
+    }
+  });
+
+  return;
+}
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mark.js/7.0.0/mark.min.js'></script>
+
   
 <creattie-embed src="galeri/waves (5).json" delay="1" speed="25" frame_rate="25" trigger="loop"
     style="position:relative; z-index: -9999; margin-bottom:-60px;width:100%;background-color: transparent">
