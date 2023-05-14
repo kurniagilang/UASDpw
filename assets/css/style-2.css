@@ -6625,7 +6625,7 @@ a img.aligncenter {
   line-height: 19px;
   text-align: center;
   color: #fff;
-  background-color: rgb(255, 194, 11); !important;
+  background-color: rgb(255, 194, 11) !important;
   border-radius: 9999px;
   -moz-border-radius: 9999px;
   text-shadow: none !important;
@@ -6713,7 +6713,7 @@ a img.aligncenter {
 }
 
 .tablepress .sorting:hover, .tablepress .sorting_asc, .tablepress .sorting_desc {
-  background-color: rgb(255, 194, 11); !important;
+  background-color: rgb(255, 194, 11) !important;
 }
 
 /* Hide the sorting arrows in the extra table that is added for scrolling */
@@ -7401,7 +7401,7 @@ a img.aligncenter {
   margin: 0 auto;
   position: relative;
   color: #fff;
-  background-color: rgb(255, 194, 11); !important;
+  background-color: rgb(255, 194, 11) !important;
   max-width: 170px;
 }
 
