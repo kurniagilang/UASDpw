@@ -105,11 +105,16 @@ a {
 }
 
 .nav__perfil {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin-bottom: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .nav__perfil {
+    display: flex;
+  }
 }
 
 .nav__img {
@@ -180,7 +185,7 @@ a {
 }
 
 .dropdown:hover > .dropdown__menu {
-  margin: 1rem 0 0 1rem;
+  margin: 1rem 0 0 2rem;
   font-size: 12px;
   transition: all 0.1s ease 0s;
   height: auto;
