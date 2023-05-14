@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/style-custom-galery.css">
     <link rel="stylesheet" href="assets/css/ps-style.css">
     <link rel="stylesheet" href="assets/css/style-2.css">
+    <link rel="stylesheet" href="navigation.css">
 </head>
 
 <body>
@@ -48,125 +49,209 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style-2.css">
     </div>
     <header class="d-xl-flex header-fancy" id="header"
-        style="height: 84px;margin-bottom: 15px;background: rgb(255,194,11);box-shadow: 0px -2px 6px 0px;transition: all 250ms ease-in-out;">
-        <nav class="navbar navbar-default topbar" style="height: 32px;">
-            <div class="container" style="height: 32px;margin-right: 0px;margin-left: 50%;z-index: 9999;">
-                <div class="header-nav" style="height: 16px;margin-right: 0px;background: #333333;"><button
-                        class="nav-more" style="height: 65px;width: 65px;padding-top: 0px;padding-left: 0px;"><i
-                            class="ion ion-android-more-vertical" style="height: 32px;"></i></button>
-                    <ul class="nav navbar-nav" style="height: 32px;width: 40.6%;/*z-index: 9999;*/opacity: 1;">
-                        <li class="dropdown pll-parent-menu-item"
-                            style="display: flex;align-items: center;justify-content: end;height: 32px;background: #3d3d3d;width: 35%;">
-                            <a class="no-click" href="https://www.unri.ac.id/"
-                                style="width: 100%;display: flex;align-items: center;justify-content: center;height: 32px;"><img
-                                    src="assets/img/icons8-indonesia-96.png"
-                                    style="width: 19px;margin-right: 0px;">&nbsp;BAHASA<span class="caret"
-                                    style="margin-left: 2px;margin-top: 2px;"></span></a>
-                            <ul role="menu" class=" dropdown-menu " style="display: none;">
-                                <li
-                                    class="lang-item lang-item-206 lang-item-en lang-item-first no-translation menu-item menu-item-type-custom menu-item-object-custom menu-item-1939-en">
-                                    <a href="https://www.unri.ac.id/en"><img src="assets/img/united-kingdom.png"
-                                            style="margin-right: 5px;width: 16px;">ENGLISH</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li
-                            style="display: flex;justify-content: center;height: 32px;margin-right: 0px;background: #2e318f;width: 40%;">
-                            <a href="http://unri.ac.id/" title="Arsip Berita"
-                                style="height: 32px;width: 100%;padding: 4px 0px;font-family: Poppins, sans-serif;">PENDAFTARAN</a>
-                        </li>
-                        <li
-                            style="display: flex;justify-content: center;height: 32px;margin-right: -15px;padding-top: 2px;width: 25%;background: #ffffff;">
-                            <a href="https://kampusmerdeka.kemdikbud.go.id/"><img src="assets/img/MASTER.png"
-                                    style="display: flex;align-content: center;height: 23px;margin-top: 3px; width:fit-content"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container"
-            style="z-index: 9999;height: 75px;margin-right: 2%;margin-left: 2%;transition: all 250ms ease-in-out;">
-            <div class="navbar-header" style="opacity: 1;margin: -16px;"><a class="navbar-brand noscroll"
-                    href="https://www.unri.ac.id/"
-                    style="width: 264px;height: 105px;background: #efefef;padding-top: 30px;padding-bottom: 11px;margin-top: 40px;margin-left: 2.5%;border-style: none;position: fixed;box-shadow: 0px 0px 7px rgba(0,0,0,0.33);"><img
-                        src="assets/img/Asset%2012.svg" alt="Universitas Riau" class="img-responsive" width="217"
-                        height="70" style="margin-bottom: 0px;margin-top: -13px;"></a><a class="navbar-brand scrolling"
-                    href="https://www.unri.ac.id/"><img src="assets/img/unri_header.png" alt="Universitas Riau"
-                        class="img-responsive"><span>Universitas Riau</span></a><button type="button"
-                    class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                    aria-controls="navbar"><span class="sr-only" style="opacity: 1;">Toggle navigation</span><span
-                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <nav id="navbar" class="navbar navbar-collapse navbar-default collapse"
-                style="z-index: 0;height: 84px;width: 100%;padding-left: 0px;position: relative;display: none;padding-right: 0px;padding-top: 0px;top: 0px;transition: all 250ms ease-in-out 0s;transform: translateY(-15px);z-index: 0;">
-                <ul class="nav navbar-nav navbar-right" style="width: 17%;margin-left: 2%;margin-right: 0%;">
-                    <li style="width: 100%;height: 69px;">
-                        <form action="https://www.unri.ac.id/" class="search-form" method="GET">
-                            <div class="input-group btn-group"><input type="text" class="form-control" name="s"
-                                    placeholder="Search ..."><button type="submit" class="btn"><i
-                                        class="fa fa-search"></i></button></div>
-                        </form>
+    style="height: 84px;margin-bottom: 15px;background: rgb(255,194,11);box-shadow: 0px -2px 6px 0px;transition: all 250ms ease-in-out;">
+    <nav class="navbar navbar-default topbar" style="height: 32px;">
+        <div class="container" style="height: 32px;margin-right: 0px;margin-left: 50%;z-index: 9999;">
+            <div class="header-nav" style="height: 16px;margin-right: 0px;background: #333333;"><button
+                    class="nav-more" style="height: 65px;width: 65px;padding-top: 0px;padding-left: 0px;"><i
+                        class="ion ion-android-more-vertical" style="height: 32px;"></i></button>
+                <ul class="nav navbar-nav" style="height: 32px;width: 40.6%;/*z-index: 9999;*/opacity: 1;">
+                    <li class="dropdown pll-parent-menu-item"
+                        style="display: flex;align-items: center;justify-content: end;height: 32px;background: #3d3d3d;width: 35%;">
+                        <a class="no-click" href="https://www.unri.ac.id/"
+                            style="width: 100%;display: flex;align-items: center;justify-content: center;height: 32px;"><img
+                                src="assets/img/icons8-indonesia-96.png"
+                                style="width: 19px;margin-right: 0px;">&nbsp;BAHASA<span class="caret"
+                                style="margin-left: 2px;margin-top: 2px;"></span></a>
+                        <ul role="menu" class=" dropdown-menu " style="display: none;">
+                            <li
+                                class="lang-item lang-item-206 lang-item-en lang-item-first no-translation menu-item menu-item-type-custom menu-item-object-custom menu-item-1939-en">
+                                <a href="https://www.unri.ac.id/en"><img src="assets/img/united-kingdom.png"
+                                        style="margin-right: 5px;width: 16px;">ENGLISH</a></li>
+                        </ul>
                     </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-left"
-                    style="display: flex;transition: all 250ms ease-in-out;margin-left: 0px;margin-right: 0%;">
                     <li
-                        style="padding: 0px 0px 0px 90px;padding-left: 0px;font-family: Poppins, sans-serif;border-radius: 0px;width: 20%;border-right: 0px solid rgb(248,173,59);border-left: 1px none rgb(248,173,59);">
-                        <a href="index.html">BERANDA</a>
+                        style="display: flex;justify-content: center;height: 32px;margin-right: 0px;background: #2e318f;width: 40%;">
+                        <a href="https://pmb.unri.ac.id/" title="PENDAFTARAN"
+                            style="height: 32px;width: 100%;padding: 4px 0px;font-family: Poppins, sans-serif;">PENDAFTARAN</a>
                     </li>
-
-                    <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">PROFIL<span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">SEJARAH</a></li>
-                            <li><a href="#">VISI DAN MISI</a></li>
-                            <li><a href="#">TUJUAN</a></li>
-                            <li><a href="#">SASARAN</a></li>
-                            <li><a href="#">STRATEGI</a></li>
-                            <li><a href="#">AKREDITASI</a></li>
-                            <li><a href="dosen.html">DOSEN</a></li>
-                            <li><a href="#">TENAGA KEPENDIDIKAN</a></li>
-                            <li><a href="#">LAB. JARKOM</a></li>
-                            <li><a href="#">LAB. RPL</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">AKADEMIK<span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">KURIKULUM</a></li>
-                            <li><a href="#">JADWAL KULIAHI</a></li>
-                            <li><a href="#">KALENDER AKADEMIK</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">SERTIFIKASI<span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">MIKROTIK ACADEMY</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">GALERI<span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="gal-foto.html">GAMBAR</a></li>
-                            <li><a href="gal-video.html">VIDEO</a></li>
-                            <li><a href="gal-virtour.html">VIRTUAL TOUR</a></li>
-                            <li><a href="gal-kontak.html">KONTAK</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">KATEGORI<span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="berita.html">BERITA</a></li>
-                            <li><a href="#">EVENT</a></li>
-                            <li><a href="#">PRESTASI MAHASISWA</a></li>
-                        </ul>
+                    <li
+                        style="display: flex;justify-content: center;height: 32px;margin-right: -15px;padding-top: 2px;width: 25%;background: #ffffff;">
+                        <a href="https://kampusmerdeka.kemdikbud.go.id/"><img src="assets/img/MASTER.png"
+                                style="display: flex;align-content: center;height: 23px;margin-top: 3px; width:fit-content"></a>
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
+    <div class="container"
+        style="z-index: 9999;height: 75px;margin-right: 2%;margin-left: 2%;transition: all 250ms ease-in-out;">
+        <div class="navbar-header" style="opacity: 1;margin: -16px;"><a class="navbar-brand noscroll"
+                href="https://www.unri.ac.id/"
+                style="width: 264px;height: 105px;background: #efefef;padding-top: 30px;padding-bottom: 11px;margin-top: 40px;margin-left: 2.5%;border-style: none;position: fixed;box-shadow: 0px 0px 7px rgba(0,0,0,0.33);"><img
+                    src="assets/img/Asset%2012.svg" alt="Universitas Riau" class="img-responsive" width="217"
+                    height="70" style="margin-bottom: 0px;margin-top: -13px;"></a><a class="navbar-brand scrolling"
+                href="index.html"><img src="assets/img/unri_header.png" alt="Universitas Riau"
+                    class="img-responsive"><span>Universitas Riau</span></a><button type="button"
+                class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar"><span class="sr-only" style="opacity: 1;">Toggle navigation</span><span
+                    class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <nav id="navbar" class="navbar navbar-collapse navbar-default collapse"
+            style="z-index: 0;height: 84px;width: 100%;padding-left: 0px;position: relative;display: none;padding-right: 0px;padding-top: 0px;top: 0px;transition: all 250ms ease-in-out 0s;transform: translateY(-15px);z-index: 0;">
+            <div></div>
+            <ul class="nav navbar-nav navbar-right" style="width: 17%;margin-left: 2%;margin-right: 0%;">
+                <li style="width: 100%;height: 69px;">
+                    <form action="https://www.unri.ac.id/" class="search-form" method="GET">
+                        <div class="input-group btn-group"><input type="text" class="form-control" name="s"
+                                placeholder="Search ..."><button type="submit" class="btn"><i
+                                    class="fa fa-search"></i></button></div>
+                    </form>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left"
+                style="display: flex;transition: all 250ms ease-in-out;margin-left: 0px;margin-right: 0%;">
+                <li
+                    style="padding: 0px 0px 0px 90px;padding-left: 0px;font-family: Poppins, sans-serif;border-radius: 0px;width: 20%;border-right: 0px solid rgb(248,173,59);border-left: 1px none rgb(248,173,59);">
+                    <a href="index.html">BERANDA</a></li>
+
+            <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">PROFIL<span
+                        class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="sejarah.html">SEJARAH</a></li>
+                    <li><a href="visimisi.html">VISI DAN MISI</a></li>
+                    <li><a href="tujuan.html">TUJUAN</a></li>
+                    <li><a href="sasaran.html">SASARAN</a></li>
+                    <li><a href="strategi.html">STRATEGI</a></li>
+                    <li><a href="akreditasi.html">AKREDITASI</a></li>
+                    <li><a href="dosen.html">DOSEN</a></li>
+                    <li><a href="tendik.html">TENAGA KEPENDIDIKAN</a></li>
+                    <li><a href="LAB-Jarkom.html">LAB. JARKOM</a></li>
+                    <li><a href="LAB-RPL.html">LAB. RPL</a></li>
+                </ul>
+            </li>
+
+                <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">AKADEMIK<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kurikulum.html">KURIKULUM</a></li>
+                        <li><a href="jadwalkuliah.html">JADWAL KULIAH</a></li>
+                        <li><a href="kalender.html">KALENDER AKADEMIK</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">SERTIFIKASI<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="mikrotik.html">MIKROTIK ACADEMY</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">GALERI<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="gal-foto.html">GAMBAR</a></li>
+                        <li><a href="gal-video.html">VIDEO</a></li>
+                        <li><a href="gal-virtour.html">VIRTUAL TOUR</a></li>
+                        <li><a href="gal-kontak.html">KONTAK</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" style="text-align: center;width: 20%;"><a href="#" class="">KATEGORI<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="berita.html">BERITA</a></li>
+                        <li><a href="event.html">EVENT</a></li>
+                        <li><a href="prestasi.html">PRESTASI MAHASISWA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<header id="header-mobile" class="header">
+    <div class="navbar-header"><a class="navbar-brand noscroll"
+        href="index.html"
+        style="margin-top: -24px; width: 150px;background: #efefef;margin-left: 2.5%;border-style: none;position: fixed;box-shadow: 0px 0px 7px rgba(0,0,0,0.33); padding: 10px;"><img
+            src="assets/img/Asset%2012.svg" alt="Universitas Riau" class="img-responsive" width="217"
+            height="70"></a>
+</div>
+    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+    <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+            <a href="" class="nav__perfil">
+                <div class="nav__img">
+                    <img src="assets/img/perfil.jpg" alt="">
+                </div>
+                
+                <div>
+                    <span class="nav__name" style="font-size: 35px;margin-bottom: 15px;">TEKNIK</span>
+                    <span class="nav__name" style="font-size: 35px;margin-bottom: 15px;">INFORMATIKA</span>
+                    <span class="nav__name" style="font-size: 20px;margin-bottom: 15px; color: #ffbb00;">Universitas Riau</span>
+                </div>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Beranda</a></li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">Profil <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="sejarah.html" class="nav__link">Sejarah</a></li>
+                            <li class="dropdown__item"><a href="visimisi.html" class="nav__link">Visi dan Misi</a></li>
+                            <li class="dropdown__item"><a href="tujuan.html" class="nav__link">Tujuan</a></li>
+                            <li class="dropdown__item"><a href="sasaran.html" class="nav__link">Sasaran</a></li>
+                            <li class="dropdown__item"><a href="strategi.html" class="nav__link">Strategi</a></li>
+                            <li class="dropdown__item"><a href="akreditasi.html" class="nav__link">Akreditasi</a></li>
+                            <li class="dropdown__item"><a href="dosen.html" class="nav__link">Dosen</a></li>
+                            <li class="dropdown__item"><a href="tendik.html" class="nav__link">Tenaga Kependidikan</a></li>
+                            <li class="dropdown__item"><a href="LAB-Jarkom.html" class="nav__link">Lab.Jarkom</a></li>
+                            <li class="dropdown__item"><a href="LAB-RPL.html" class="nav__link">Lab.RPL</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">Akademik <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="kurikulum.html" class="nav__link">Kurikulum</a></li>
+                            <li class="dropdown__item"><a href="jadwalkuliah.html" class="nav__link">Jadwal Kuliah</a></li>
+                            <li class="dropdown__item"><a href="kalender.html" class="nav__link">Kalender Akademik</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">Sertifikasi <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="mikrotik.html" class="nav__link">Mikrotik Academy</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">Galeri <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="gal-foto.html" class="nav__link">Foto</a></li>
+                            <li class="dropdown__item"><a href="gal-video.html" class="nav__link">Video</a></li>
+                            <li class="dropdown__item"><a href="gal-virtour.html" class="nav__link">Virtual Tour</a></li>
+                            <li class="dropdown__item"><a href="gal-kontak.html" class="nav__link">Kontak</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">Kategori <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="berita.html" class="nav__link">Berita</a></li>
+                            <li class="dropdown__item"><a href="event.html" class="nav__link">Video</a></li>
+                            <li class="dropdown__item"><a href="prestasi.html" class="nav__link">Prestasi Mahasiswa</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
     <div id="body">
         <div class="container">
             <div class="row" style="margin-top: 90px;">
@@ -1006,7 +1091,7 @@
     </style>
     <script id="bs-live-reload" data-sseport="50203" data-lastchange="1682869294790"
         src="./MyResume Bootstrap Template - Index_files/livereload.js.download"></script>
-
+        <script src="navigation.js"></script>
 
 </body>
 
