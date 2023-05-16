@@ -7792,7 +7792,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .schome-hero--video {
   height: 80vh;
-  max-height: 80vh;
+  max-height: 200vh;
   overflow: hidden;
 }
 
