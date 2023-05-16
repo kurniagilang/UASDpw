@@ -7328,18 +7328,12 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 .section-page .section-title h3, .section-page .section-title h2 {
-  position: relative;
-  font-size: 36px;
-  font-weight: 800;
-  margin: 0;
   color: #073C64;
 }
 
 .section-page .section-title h3:after, .section-page .section-title h2:after {
   content: "";
   display: block;
-  margin: 20px auto 15px -40px;
-  width: 106px;
   border-bottom: 4px solid #FDCB2C;
 }
 

@@ -15168,12 +15168,6 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 @media (min-width: 768px) {
-  .homepage .section-title h2:after, .homepage .section-title h3:after {
-    width: 100px;
-  }
-}
-
-@media (min-width: 768px) {
   .homepage .schome-research .section-box {
     padding-left: 50px;
   }
