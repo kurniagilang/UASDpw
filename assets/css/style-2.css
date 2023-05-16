@@ -6879,14 +6879,14 @@ a img.aligncenter {
 
 .share-box {
   list-style: none;
-  padding: 0;
+  height: 100px !important;
   padding-top: 70px;
 }
 
 @media (min-width: 1024px) {
   .share-box.sticky {
     position: fixed;
-    top: 60px;
+    top: 20%;
   }
 }
 
@@ -6906,16 +6906,16 @@ a img.aligncenter {
 }
 
 .share-box > li {
-  margin-bottom: 5px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .share-box > li > a {
-  color: #fff;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   width: 50px;
   height: 50px;
-  line-height: 50px;
+  line-height: 30px;
   text-align: center;
 }
 
@@ -15164,12 +15164,6 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
     height: 24px;
     -webkit-line-clamp: 1;
     margin: 10px 0 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .homepage .section-title h2:after, .homepage .section-title h3:after {
-    width: 100px;
   }
 }
 

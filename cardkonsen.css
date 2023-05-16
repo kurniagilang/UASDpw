@@ -48,7 +48,7 @@
 
 .contained .card .face.face1{
     position: relative;
-    background: #444444;
+    background: #393939;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,6 @@
 
 .contained .card:hover .face.face1{
     position: relative;
-    background: #404040;
     display: flex;
     justify-content: center;
     align-items: center;
