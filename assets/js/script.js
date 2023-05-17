@@ -2,6 +2,7 @@ const topHeader = document.getElementsByClassName("topbar")[0]
 const btmHeader = document.getElementById("navbar")
 const header = document.getElementById("header")
 const navbars = document.getElementById("navbar")
+const foll = document.getElementById("follows")
 
 function handleTopbar() {
     window.addEventListener("scroll", () => {
@@ -18,8 +19,10 @@ function handleTopbar() {
             header.style.borderBottomStyle= "solid";
             header.style.borderBottomWidth= "16px";
             navbars.style.transform = "translateY(0px)"
-
-        } else {
+            foll.style.opacity= "0.0"
+            foll.style.margin = "-100px"
+            
+        }else {
             topHeader.style.top = "0"
             btmHeader.style.zIndex = "0"
             header.style.height = "84px"
@@ -29,7 +32,11 @@ function handleTopbar() {
             header.style.borderBottomWidth= "0px";
             btmHeader.style.top = "0"
             navbars.style.transform = "translateY(-15px)"
+            foll.style.opacity= "0.5"
+            foll.style.margin= "0px"
         }
+
+        
         
         // if (topHeader.style.top == "-32px") {
         //     topHeader.style.display = "none"

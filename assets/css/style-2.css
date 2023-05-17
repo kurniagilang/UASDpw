@@ -7410,6 +7410,31 @@ a img.aligncenter {
   font-weight: 700;
 }
 
+@media (max-width: 1200px) {
+  #newsfeeds {
+    margin-bottom: -130px!important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .button {
+    display: inline-block;
+    position: relative;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border: 0px solid #f4ba02;
+    background-color: #052e4c;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 10px!important;
+    outline: none;
+    color: #fff;
+    border-radius: 2px;
+    font-family: 'Poppins';
+    font-weight: 700;
+  }
+}
+
 .button span {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -14993,12 +15018,29 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
   color: #9F9F9F;
 }
 
+.homepage .post .post-title .h3s > a {
+  color: #fff;
+}
+
 .homepage .post .post-title h3 > a {
-  color: #222222;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .homepage .post .post-title h3 > a {
+    color: #090909;
+  }
+  }
+
+@media (max-width: 1200px) {
+.homepage .post .post-content  {
+    background-color: transparent;
+    border-top: transparent!important;
+  }
 }
 
 .homepage .post .btn-more {
-  color: #073C64;
+  color: ;
 }
 
 @media (min-width: 1400px) {
@@ -15008,7 +15050,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .homepage .post.post-block .post-content {
-  background-color: #f8f9fb;
+  background-color: #182943;
   padding-bottom: 20px;
 }
 
@@ -15101,7 +15143,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 @media (min-width: 768px) {
   .homepage .post.post-inline .post-content {
-    background-color: #f8f9fb;
+    background-color: #182943;
     padding: 15px 20px 30px;
   }
 }
