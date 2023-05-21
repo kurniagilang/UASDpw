@@ -1236,6 +1236,16 @@ dd {
   }
 }
 
+.backparallax{
+  height: 768px;
+}
+
+@media (max-width: 768px) {
+  .backparallax{
+    height: 1000px !important;
+  }
+}
+
 abbr[title], abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #a6a6a6;
@@ -7417,10 +7427,18 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 .section-page.top {
+  height: 50vw;
   padding-top: 0;
   margin-top: -30px;
 }
 
+@media (max-width: 768px) {
+  .section-page.top {
+    height: 150vw;
+    padding-top: 0;
+    margin-top: -30px;
+  }
+}
 .section-page.gray-bg {
   background-color: #f8f9fb;
 }
