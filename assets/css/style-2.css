@@ -8543,7 +8543,8 @@ a img.aligncenter {
 @media (max-width: 767px) {
   .news-event .post.post-inline {
     position: relative;
-    padding-left: 90px;
+    background-color: white!important;
+    padding: 10px 20px 0 90px;
     min-height: 75px;
     margin: 15px 0 0;
   }
@@ -15041,18 +15042,21 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
   color: #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .homepage .post .post-title h3 > a {
     color: #090909;
   }
   }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 .homepage .post .post-content  {
     background-color: transparent;
     border-top: transparent!important;
+    box-shadow: none !important;
   }
 }
+
+
 
 .homepage .post .btn-more {
   color: ;
