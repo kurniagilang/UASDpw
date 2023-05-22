@@ -7476,7 +7476,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 @media (max-width: 1199px) {
   .section-page {
-    margin-top: 55px!important;
+    margin-top: 0px!important;
   }
 }
 
