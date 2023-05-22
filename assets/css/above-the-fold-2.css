@@ -7380,6 +7380,14 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .section-page .section-title h2 {
   font-size: 48px;
+  margin:70px 70px;
+}
+
+@media (max-width: 768px) {
+  .section-page .section-title h2 {
+    font-size: 48px;
+    margin:70px 70px;
+  }
 }
 
 @media (min-width: 1400px) {
