@@ -12,6 +12,12 @@ html {
   }
 }
 
+/* .posters{
+  height: 600px !important;
+  width: auto;
+  margin: 10%! important;
+} */
+
 body {
   margin: 0;
   width: 100vw; 
