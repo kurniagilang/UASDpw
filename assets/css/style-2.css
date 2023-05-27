@@ -6779,6 +6779,14 @@ a img.aligncenter {
   display: inline-block;
 }
 
+.nmt{
+  margin:0px auto 0px auto;
+}
+
+.c{
+  margin-bottom: 30px;
+}
+
 /* Section / Widget Title - Placeholder */
 
 .content .content-header, #content .content-header, .tpb-title, .single-post .content-heading, .panel-header, .widget .widget-header, #comments .comment-header {
@@ -8387,7 +8395,6 @@ a img.aligncenter {
   line-height: 24px;
   height: 48px;
   font-weight: bold;
-  color: #073C64;
   overflow: hidden;
 }
 
@@ -8405,7 +8412,7 @@ a img.aligncenter {
 
 .news-event .post .entry-content p {
   
-  color: #fff;
+  color: #000;
 }
 
 .news-event .post .entry-content p a {
@@ -15039,12 +15046,9 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .homepage .post .post-title .h3s > a {
-  color: #fff;
+  color: #000;
 }
 
-.homepage .post .post-title h3 > a {
-  color: #fff;
-}
 
 @media (max-width: 768px) {
   .homepage .post .post-title h3 > a {
@@ -15063,7 +15067,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 
 .homepage .post .btn-more {
-  color: ;
+  color: #052e4c;
 }
 
 @media (min-width: 1400px) {
@@ -15073,7 +15077,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .homepage .post.post-block .post-content {
-  background-color: #182943;
+  background-color: #f8f9fb;
   padding-bottom: 20px;
 }
 
@@ -15136,7 +15140,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 @media (min-width: 1400px) {
   .homepage .post.post-block {
-    min-height: 380px;
+    min-height: 450px;
   }
 }
 
@@ -15166,8 +15170,8 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 
 @media (min-width: 768px) {
   .homepage .post.post-inline .post-content {
-    background-color: #182943;
-    padding: 15px 20px 30px;
+    background-color: #f8f9fb;
+    padding: 15px 20px 10px;
   }
 }
 

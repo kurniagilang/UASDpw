@@ -43,7 +43,7 @@
     width: 300px;
     height: 200px;
     transition: 0.5s;
-    box-shadow: 0px 10px 20px 10px rgba(52, 52, 52, 0.219);
+    box-shadow: 0px 2px 5px 0px rgba(52, 52, 52, 0.219);
 }
 
 .contained .card .face.face1{

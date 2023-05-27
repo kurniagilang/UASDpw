@@ -1361,6 +1361,18 @@ address {
   margin-left: 40px;
 }
 
+.s{
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+@media (max-width: 1200px) {
+  .s{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+}
+
 .container:before, .container:after {
   content: " ";
   display: table;
