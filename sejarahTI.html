@@ -1,0 +1,398 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="canonical" href="https://codepen.io/bcarvalho/pen/RZqmZX">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+
+    <style>
+        html,
+        body,
+        .container {
+            height: 100%;
+        }
+
+        body {
+            font-family: "poppins";
+            font-size: 14px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 38px;
+            color: #616161;
+            font-style: italic;
+            font-weight: 800;
+        }
+
+        .timeline {
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .timeline .swiper-container {
+            height: 600px;
+            width: 100%;
+            position: relative;
+        }
+
+        .timeline .swiper-wrapper {
+            transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+        }
+
+        .timeline .swiper-slide {
+            position: relative;
+            color: #fff;
+            overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .timeline .swiper-slide::after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            right: -115%;
+            bottom: -10%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+            border-radius: 100%;
+        }
+
+        .timeline .swiper-slide-content {
+            position: absolute;
+            text-align: center;
+            width: 80%;
+            max-width: 310px;
+            right: 50%;
+            top: 13%;
+            transform: translate(50%, 0);
+            font-size: 12px;
+            z-index: 2;
+        }
+
+        .timeline .swiper-slide .timeline-year {
+            display: block;
+            font-style: italic;
+            font-size: 42px;
+            margin-bottom: 50px;
+            transform: translate3d(20px, 0, 0);
+            color: #d4a024;
+            font-weight: 300;
+            opacity: 0;
+            transition: 0.2s ease 0.4s;
+        }
+
+        .timeline .swiper-slide .timeline-title {
+            font-weight: 800;
+            font-size: 34px;
+            margin: 0 0 30px;
+            opacity: 0;
+            transform: translate3d(20px, 0, 0);
+            transition: 0.2s ease 0.5s;
+        }
+
+        .timeline .swiper-slide .timeline-text {
+            font-size: 14px;
+            line-height: 1.5;
+            opacity: 0;
+            transform: translate3d(20px, 0, 0);
+            transition: 0.2s ease 0.6s;
+        }
+
+        .timeline .swiper-slide-active .timeline-year {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+            transition: 0.4s ease 1.6s;
+        }
+
+        .timeline .swiper-slide-active .timeline-title {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+            transition: 0.4s ease 1.7s;
+        }
+
+        .timeline .swiper-slide-active .timeline-text {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+            transition: 0.4s ease 1.8s;
+        }
+
+        .timeline .swiper-pagination {
+            right: 15% !important;
+            height: 100%;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 18px;
+            z-index: 1;
+        }
+
+        .timeline .swiper-pagination::before {
+            content: "";
+            position: absolute;
+            left: -30px;
+            top: 0;
+            height: 100%;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .timeline .swiper-pagination-bullet {
+            width: auto;
+            height: auto;
+            text-align: center;
+            opacity: 1;
+            background: transparent;
+            color: #d4a024;
+            margin: 15px 0 !important;
+            position: relative;
+        }
+
+        .timeline .swiper-pagination-bullet::before {
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: -32.5px;
+            width: 6px;
+            height: 6px;
+            border-radius: 100%;
+            background-color: #d4a024;
+            transform: scale(0);
+            transition: 0.2s;
+        }
+
+        .timeline .swiper-pagination-bullet-active {
+            color: #d4a024;
+        }
+
+        .timeline .swiper-pagination-bullet-active::before {
+            transform: scale(1);
+        }
+
+        .timeline .swiper-button-next,
+        .timeline .swiper-button-prev {
+            background-size: 20px 20px;
+            top: 15%;
+            width: 20px;
+            height: 20px;
+            margin-top: 0;
+            z-index: 2;
+            transition: 0.2s;
+        }
+
+        .timeline .swiper-button-prev {
+            left: 8%;
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23d4a024'%2F%3E%3C%2Fsvg%3E");
+        }
+
+        .timeline .swiper-button-prev:hover {
+            transform: translateX(-3px);
+        }
+
+        .timeline .swiper-button-next {
+            right: 8%;
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23d4a024'%2F%3E%3C%2Fsvg%3E");
+        }
+
+        .timeline .swiper-button-next:hover {
+            transform: translateX(3px);
+        }
+
+        @media screen and (min-width: 768px) {
+            .timeline .swiper-slide::after {
+                right: -30%;
+                bottom: -8%;
+                width: 240px;
+                height: 50%;
+                box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, 0.7);
+            }
+
+            .timeline .swiper-slide-content {
+                right: 30%;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 310px;
+                font-size: 11px;
+                text-align: right;
+            }
+
+            .timeline .swiper-slide .timeline-year {
+                margin-bottom: 0;
+                font-size: 32px;
+            }
+
+            .timeline .swiper-slide .timeline-title {
+                font-size: 46px;
+                margin: 0;
+            }
+
+            .timeline .swiper-pagination {
+                display: flex;
+            }
+
+            .timeline .swiper-button-prev {
+                top: 15%;
+                left: auto;
+                right: 15%;
+                transform: rotate(90deg) translate(0, 10px);
+            }
+
+            .timeline .swiper-button-prev:hover {
+                transform: rotate(90deg) translate(-3px, 10px);
+            }
+
+            .timeline .swiper-button-next {
+                top: auto;
+                bottom: 15%;
+                right: 15%;
+                transform: rotate(90deg) translate(0, 10px);
+            }
+
+            .timeline .swiper-button-next:hover {
+                transform: rotate(90deg) translate(3px, 10px);
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .timeline .swiper-slide::after {
+                right: -20%;
+                bottom: -12%;
+                width: 240px;
+                height: 50%;
+                box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
+            }
+
+            .timeline .swiper-slide-content {
+                right: 25%;
+            }
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function (t) { };
+    </script>
+
+
+
+</head>
+
+<body translate="no">
+    <div class="container">
+        <div class="timeline">
+            <div class="swiper-container swiper-container-vertical">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-active"
+                        style="background-image: url(galeri/WhatsApp\ Image\ 2023-05-09\ at\ 23.03.403.jpg); height: 600px;"
+                        data-year="Tentang">
+                        <div class="swiper-slide-content"><span class="timeline-year">Tentang</span>
+                            <h4 class="timeline-title">Prodi TI UNRI</h4>
+                            <p class="timeline-text">Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika bisa dikatakan sebagai program studi yang masih muda dibandingkan dengan Program Studi lain yang ada di Fakultas Teknik.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next"
+                        style="background-image: url(galeri/WhatsApp\ Image\ 2023-05-09\ at\ 23.00.03.jpg); height: 600px;"
+                        data-year="2013">
+                        <div class="swiper-slide-content"><span class="timeline-year">2013</span>
+                            <h4 class="timeline-title">Beridirinya TI UNRI</h4>
+                            <p class="timeline-text">Program Studi Teknik Informatika didirikan pada tahun 2013 dengan SK No: 485/E/O/2013. SK pendiriannya tertanggal 18 Oktober 2013. Kemudian Program Studi Teknik Informatika mulai beroperasi pada bulan Juli 2014 sampai dengan sekarang.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url(galeri/DSC_1803.jpg); height: 600px;"
+                        data-year="2014">
+                        <div class="swiper-slide-content"><span class="timeline-year">Bidang</span>
+                            <h4 class="timeline-title">Konsentrasi</h4>
+                            <p class="timeline-text">Program Studi Teknik Informatika memiliki 3 konsentrasi, yaitu Komputasi Cerdas dan Visualisasi (KCV), Rekayasa Perangkat Lunak (RPL), dan Komputasi Berbasis Jaringan (KBJ). Lulusan Program Studi Teknik Informatika mendapatkan gelar S.T. (Sarjana Teknik). Program Studi Teknik Informatika menghasilkan lulusanya yang unggul.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url(galeri/WhatsApp\ Image\ 2023-05-09\ at\ 23.03.05.jpg); height: 600px;"
+                        data-year="2019">
+                        <div class="swiper-slide-content"><span class="timeline-year">2019</span>
+                            <h4 class="timeline-title">Akreditasi</h4>
+                            <p class="timeline-text">Tahun 2019 Program Studi Teknik Informatika sudah mendapatkan akreditas “B” dengan SK BAN-PT No. 2693/SK/BAN-PT/Akred/S/VII/2019.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url(galeri/pencegahan-virus-covid-19-unri-kerjasama-dengan-pt-ikpp.jpg); height: 600px;"
+                        data-year="2020">
+                        <div class="swiper-slide-content"><span class="timeline-year">Covid-19</span>
+                            <h4 class="timeline-title">Resilience</h4>
+                            <p class="timeline-text">Meskipun Covid-19 menyerang, prodi TI UNRI masih mampu bertahan dan tetap beroperasi mengikuti alur perkembangan sistem pembelajaran yang ada</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image: url(galeri/WhatsApp\ Image\ 2023-05-09\ at\ 23.03.32.jpg); height: 600px;"
+                        data-year="2023">
+                        <div class="swiper-slide-content"><span class="timeline-year">2023</span>
+                            <h4 class="timeline-title">Saat Ini</h4>
+                            <p class="timeline-text">Program Studi Teknik Informatika Universitas Riau terus berusaha meningkatkan kualitas pendidikan dan relevansi dengan dunia industri. Kurikulum terus diperbarui sesuai dengan perkembangan terbaru di bidang teknologi informasi seperti kecerdasan buatan, pengembangan aplikasi mobile, dan komputasi awan. Program studi ini juga terus mendukung mahasiswa dalam mengikuti kompetisi dan kegiatan akademik lainnya untuk mengembangkan kemampuan mereka.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-button-disabled"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active">2014</span><span
+                        class="swiper-pagination-bullet">2015</span><span
+                        class="swiper-pagination-bullet">2016</span><span
+                        class="swiper-pagination-bullet">2017</span><span
+                        class="swiper-pagination-bullet">2018</span><span 
+                        class="swiper-pagination-bullet">2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script id="rendered-js">
+        var timelineSwiper = new Swiper('.timeline .swiper-container', {
+            direction: 'vertical',
+            loop: false,
+            speed: 1600,
+            pagination: '.swiper-pagination',
+            paginationBulletRender: function (swiper, index, className) {
+                var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
+                return '<span class="' + className + '">' + year + '</span>';
+            },
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            breakpoints: {
+                768: {
+                    direction: 'horizontal'
+                }
+            }
+        });
+  //# sourceURL=pen.js
+    </script>
+
+
+
+
+
+</body>
+
+</html>

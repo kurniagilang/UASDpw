@@ -16257,7 +16257,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .sc-about--number > .container {
-  max-width: 990px;
+  max-width: 100%;
 }
 
 .sc-about--number .number {
@@ -16374,7 +16374,7 @@ section .section-item .btn, section .section-item .single-page .contact-form inp
 }
 
 .sc-about--number .number-row .number-col {
-  background-color: #073C64;
+  background-color: #052e4c;
   border-bottom: 6px solid #FDCB2C;
 }
 
