@@ -1,0 +1,159 @@
+<html lang="en" class=""><head>
+
+    <meta charset="UTF-8">
+    <title>CodePen Demo</title>
+  
+    <meta name="robots" content="noindex">
+  
+    
+  
+    
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+    <style id="INLINE_PEN_STYLESHEET_ID">
+      /*- Screen Sizes*/
+  /* COLOR HEX */
+  /* COLOR Gradient */
+  /*import fonts*/
+  @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  /*media queries*/
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "poppins", sans-serif;
+    font-size: 0.875em;
+    color: #444444;
+    line-height: 1.5;
+  }
+  
+  .dl-blurbs {
+    display: grid;
+  }
+  @media (min-width: 768px) {
+    .dl-blurbs {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2vw;
+    }
+  }
+  
+  /* LIST */
+  dl {
+    counter-reset: count;
+    background: linear-gradient(90deg, rgba(255, 238, 0, 0.04) 20%, rgba(255, 255, 255, 0) 0%);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+    dl {
+      padding-left: 2vw;
+    }
+  }
+  @media (min-width: 1024px) {
+    dl {
+      padding-top: 3vw;
+      padding-bottom: 3vw;
+    }
+  }
+  
+  dl + dl {
+    counter-reset: counter 4;
+  }
+  
+  dt {
+    counter-increment: count;
+    color: #073c64;
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  dt::before {
+    content: counter(count, decimal-leading-zero) ".";
+    font-family: "poppins";
+    font-weight: 900;
+    color: rgb(255, 194, 11);
+    margin-left: -1vw;
+    padding-right: 12px;
+  }
+  
+  dd {
+
+    margin-bottom: 2vh;
+  }
+    </style>
+  
+    
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6bce046e7128ddf9391ccf7acbecbf7ce0cbd7b6defbeb2e217a867f51485d25.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+  </head>
+  
+  <body>
+    <section class="dl-blurbs">
+  <dl>
+      <dt>VMTS: Realistik, Sosialisasi</dt>
+      <dd>Memiliki VMTS yang realistik dan disosialisasikan ke seluruh alumni dan stakeholder dalam dan luar negeri.</dd>
+      <dt>Organisasi: Sehat, Dinamis, Tanggap</dt>
+      <dd>Organisasi sehat, dinamis dan tanggap terhadap perubahan telah berjalan secara efektif.</dd>
+      <dt>Penerimaan Mahasiswa: Jumlah, Kualitas</dt>
+      <dd>Bertambahnya jumlah penerimaan mahasiswa jalur seleksi Nasional dan peningkatan kualitas akademik mahasiswa.</dd>
+      <dt>SDM: Berkualitas, Cukup, Standar</dt>
+      <dd>Memiliki sumber daya manusia yang berkualitas dengan jumlah yang cukup dan memenuhi standar.</dd>
+      <dt>Kurikulum: Kompetensi, Daya Saing</dt>
+      <dd>Memiliki kurikulum berbasis kompetensi yang menghasilkan lulusan yang berdaya saing tinggi.</dd>
+      <dt>Perangkat Pembelajaran: Efisien, Efektif</dt>
+      <dd>Memiliki perangkat pembelajaran yang efisien dan efektif.</dd>
+      <dt>Suasana Akademik: Kondusif</dt>
+      <dd>Terciptanya suasana akademik yang kondusif.</dd>
+      <dt>Sarana Prasarana: Optimal</dt>
+      <dd>Penggunaan sarana dan prasarana pendidikan yang optimal.</dd>
+      <dt>Paten: Peningkatan</dt>
+      <dd>Peningkatan perolehan paten, publikasi ilmiah dan tulisan berbentuk karya ilmiah Nasional dan Internasional.</dd>
+      <dt>Publikasi: Ilmiah, Nasional, Internasional</dt>
+      <dd>Adanya buku ajar untuk setiap mata kuliah.</dd>
+      <dt>Buku Ajar: Setiap Mata Kuliah</dt>
+      <dd>Program studi memiliki perencaraan alokasi dan pengelolaan dana sesuai dengan proporsionalitas pendapatan.</dd>
+      <dt>Dana: Alokasi, Proporsional</dt>
+      <dd>Dana operasional bagi kegiatan pendidikan, penelitian dan pengabdian pada masyarakat yang sesuai standar.</dd>
+  </dl>
+  <dl>
+    <dt>Kegiatan: Pendidikan, Penelitian, Pengabdian</dt>
+      <dd>Tersedianya fasilitas, ruang, sarana dan prasarana untuk kegiatan pendidikan, penelitian dan pengabdian pada masyarakat yang sesuai standar.</dd>
+      <dt>Prestasi Mahasiswa: Meningkat</dt>
+      <dd>Meningkatnya prestasi mahasiswa.</dd>
+      <dt>Prasarana Pembelajaran: Kepustakaan, Sarana</dt>
+      <dd>Meningkatnya jumlah dan kualitas prasarana dalam proses pembelajaran (bahan kepustakaan, sarana pembelajaran) dan penelitian sesuai dengan standar.</dd>
+      <dt>Laboratorium: Kualitas, Standar</dt>
+      <dd>Meningkatnya jumlah dan kualitas sarana dan prasarana laboratorium baik untuk tujuan pembelajaran maupun untuk tujuan penelitian sesuai dengan standar.</dd>
+      <dt>Dana Operasional: Perawatan</dt>
+      <dd>Bertambahnya dana operasional untuk perawatan sarana dan prasarana pendidikan, penelitian dan pengabdian kepada masyarakat.</dd>
+      <dt>Sistem Informasi: E-learning</dt>
+      <dd>Meningkatnya sistem informasi, fasilitas e-learning untuk keperluan pendidikan, penelitian dan pengabdian kepada masyaratakat.</dd>
+      <dt>Penelitian: Produktivitas, Mutu</dt>
+      <dd>Menghasilkan produktivitas dan mutu yang baik dari hasil penelitian dosen serta keterlibatan mahasiswa dalam kegiatan tersebut.</dd>
+      <dt>Pelayanan Masyarakat: Dosen, Mahasiswa</dt>
+      <dd>Menghasilkan kegiatan pelayanan/pengabdian kepada masyarakat yang dilakukan oleh dosen dan mahasiswa dan bermanfaat bagi stakeholder.</dd>
+      <dt>Publikasi Ilmiah: Impact Factor, Akreditasi</dt>
+      <dd>Menghasilkan sejumlah publikasi ilmiah berupa impact factor/indexscopus yang dapat menaikkan akreditasi prodi Sarjana Teknik Informatika.</dd>
+      <dt>Paten: Teknik Informatika, Akreditasi</dt>
+      <dd>Menghasilkan sejumlah paten dalam bidang ilmu Teknik Informatika yang sesuai dengan perhitungan nilai akreditasi yang baik.</dd>
+      <dt>Kerjasama: Efektif, Misi Fakultas</dt>
+      <dd>Menghasilkan jumlah dan mutu kerjasama yang efektif untuk mendukung pelaksanaan misi Fakultas.</dd>
+  </dl>
+  </section>
+    
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    
+  
+  
+  </body></html>
