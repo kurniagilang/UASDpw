@@ -1,0 +1,138 @@
+<html lang="en" class=""><head>
+
+    <meta charset="UTF-8">
+    <title>CodePen Demo</title>
+  
+    <meta name="robots" content="noindex">
+  
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+    <link rel="canonical" href="https://codepen.io/girlgeek/pen/dyOjrJE">
+  
+    
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+    <style id="INLINE_PEN_STYLESHEET_ID">
+      /*- Screen Sizes*/
+  /* COLOR HEX */
+  /* COLOR Gradient */
+  /*import fonts*/
+  @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  /*media queries*/
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "poppins", sans-serif;
+    font-size: 0.875em;
+    color: #444444;
+    line-height: 1.5;
+  }
+  
+  .dl-blurbs {
+    display: grid;
+  }
+  @media (min-width: 768px) {
+    .dl-blurbs {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2vw;
+    }
+  }
+  
+  /* LIST */
+  dl {
+    counter-reset: count;
+    background: linear-gradient(90deg, rgba(255, 238, 0, 0.04) 20%, rgba(255, 255, 255, 0) 0%);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+    dl {
+      padding-left: 2vw;
+    }
+  }
+  @media (min-width: 1024px) {
+    dl {
+      padding-top: 3vw;
+      padding-bottom: 3vw;
+    }
+  }
+  
+  dl + dl {
+    counter-reset: counter 4;
+  }
+  
+  dt {
+    counter-increment: count;
+    color: #073c64;
+    font-family: "poppins";
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  dt::before {
+    content: counter(count, decimal-leading-zero) ".";
+    font-family: "poppins";
+    font-weight: 900;
+    color: rgb(255, 194, 11);
+    margin-left: -1vw;
+    padding-right: 12px;
+  }
+  
+  dd {
+
+    margin-bottom: 2vh;
+  }
+    </style>
+  
+    
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6bce046e7128ddf9391ccf7acbecbf7ce0cbd7b6defbeb2e217a867f51485d25.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+  </head>
+  
+  <body>
+    <section class="dl-blurbs">
+  <dl>
+      <dt>Berkualitas</dt>
+      <dd>Dengan kemampuan mengaplikasikan ilmu dasar, matematika, komputer dan informasi teknologi untuk menyelesaikan persoalan-persoalan teknis teknologi informasi dan pengelolaannya.</dd>
+      <dt>Berdaya Saing </dt>
+      <dd>Sehingga mampu bersaing dengan lulusan perguruan tinggi lain.</dd>
+      <dt>Bermoral</dt>
+      <dd>Dalam kehidupan bermasyarakat dan beragama.</dd>
+      <dt>Berkemampuan</dt>
+      <dd>Untuk melanjutkan studi pada jenjang yang lebih tinggi.</dd>
+      <dt>Profesional</dt>
+      <dd>memiliki kemampuan untuk mengembangkan keprofesionalan, seperti berkomunikasi, bekerja dalam tim, mengerti kode etik profesi serta dapat menjadi seorang wirausaha tangguh.</dd>
+      <dt>Adaptif</dt>
+      <dd>Menghasilkan lulusan dengan kemampuan untuk memenuhi tantangan zaman yang berkembang secara cepat dan kompleks, dan kesadaran akan dampak teknologi terhadap masyarakat.</dd>
+  </dl>
+  <dl>
+      <dt>Mengajarkan</dt>
+      <dd>Menghasilkan lulusan yang memiliki kemampuan mengembangkan dan menyebarluaskan ilmu pengetahuan dan teknologi, terutama dalam kajian Ilmu Komputer, Sistem dan Teknologi Informasi serta mengupayakan penggunaannya untuk meningkatkan kesejahteraan umat manusia.</dd>
+      <dt>Terkini</dt>
+      <dd>Menghasilkan lulusan yang memiliki kemampuan terkini dalam bidang ilmu Teknik Informatika.</dd>
+  
+      <dt>Cerdast</dt>
+      <dd>Menghasilkan lulusan yang memiliki pengetahuan ilmu Teknik Informatika dan siap bersaing secara Nasional dan Internasional.</dd>
+      <dt>Supportive</dt>
+      <dd>Mendukung pembangunan masyarakat melalui penemuan-penemuan dalam bidang ilmu Teknik Informatika.</dd>
+      <dt>Diakui</dt>
+      <dd>Menghasilkan publikasi dengan kualitas yang baik dan diakui secara Nasional maupun Internasional.</dd>
+  </dl>
+  </section>
+    
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    
+  
+  
+  </body></html>
